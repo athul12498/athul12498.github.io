@@ -1,0 +1,8 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    theme: cerulean
+---
+
+[home](index.html)
