@@ -1,13 +1,9 @@
----
-title: "My awesome website"
-output: 
-  html_document:
-    toc: true
-    toc_float: true
----
+# 👋 Hello, I'm Yuanbo Dai
 
-# This is Jeff's awesome website
+Welcome to my personal website!  
+This site was created as part of my data science coursework,  
+and also serves as a space to share a bit about myself and my academic journey.  
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
-[P8105](https://p8105.com/making_websites.html)
-[about](about.html)
+You can find my **introduction**, **email**, and **GitHub link** in the navigation bar above.  
+
+Thank you for visiting!

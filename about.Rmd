@@ -1,8 +1,82 @@
 ---
-title: "My awesome website"
-output: 
-  html_document:
-    theme: cerulean
+title: "About Me"
 ---
 
-[home](index.html)
+##  Education
+**Wuhan University**, Wuhan, China  
+*B.Sc. in Biological Science, Sep 2020 – Jul 2024*  
+Cumulative GPA: 3.49 / 4.0  
+
+- Mathematics: Advanced Mathematics C1 & E2, Probability & Mathematical Statistics B, Linear Algebra B  
+- Programming: Python, C Programming Language  
+- GRE: 326 (Verbal 156, Quantitative 170)
+
+---
+
+##  Research Experience
+
+### Gene Expression Data Analysis Using Mixed Effects Models (Aug 2024 – Present)
+- Applied mixed-effects models to analyze large-scale gene expression data (1,176 genes, two conditions).  
+- Processed microarray data and validated findings using permutation tests and Gene Set Enrichment Analysis.  
+- Categorized functionally related genes based on similarity of expression profiles.  
+
+### Gene Expression Profiling Based on High-Throughput Sequencing Technology (Aug 2024 – Present)
+- Used high-throughput sequencing to compare PBMC expression profiles between tuberculosis patients and controls.  
+- Conducted RNA extraction, cDNA library preparation, bridge PCR amplification, and Illumina deep sequencing.  
+- Identified diagnostic marker genes through differential expression analysis.  
+
+### Undergraduate Thesis: The Impact of Gravity Axis on Mouse Place Cells (Sep 2023 – Apr 2024)  
+*Supervised by Prof. Chun Xu, Institute of Neuroscience, Chinese Academy of Sciences*  
+- Recorded hippocampal place cell activity under varying slopes using GRIN Lens calcium imaging.  
+- Processed imaging data with CNMF-E and tracked behavior using DeepLabCut.  
+- Analyzed discharge data and behavioral correlation to reveal the effect of gravity on spatial coding.
+
+### Brain Electrical Activity Acquisition & Decoding Algorithms for BMIs (Jul 2023 – Nov 2023)  
+*Published in Highlights in Science, Engineering and Technology, Vol. 74, 2023*  
+- Studied BMI decoding for prosthetic control among amputees and paralytics.  
+- Compared invasive vs. noninvasive signal acquisition and examined linear/nonlinear decoding algorithms.  
+
+### Path Academy Online Research Project (Jul 2023 – Nov 2023)  
+*Supervised by Prof. Joni Wallis, UC Berkeley*  
+- Led a 4-person team studying the principles and applications of biological and artificial neural networks.  
+
+### Internship: Institute of Food Science & Technology, CAAS (Jul 2022 – Sep 2022)  
+*Supervised by Prof. Fengjiao Xin*  
+- Searched for phenylalanine ammonia lyase for treating phenylketonuria.  
+- Used PyMOL for protein modeling and independently performed protein purification experiments.
+
+---
+
+## Leadership & Community Involvement
+
+**Talent Management Associate**, Wuhan University Center for Psychological Health Education (Sep 2023 – Jun 2024)  
+- Organized weekly workshops for 20 student consultants with a 3-member coordination team.  
+
+**Vice President**, Martial Art Club, Wuhan University (Dec 2022 – Jun 2024)  
+- Recruited new members, maintained club database, and helped develop club regulations.  
+
+**Program Counselor**, Wuhan University Common Welfare Association (Feb 2023 – Jun 2023)  
+- Co-founded the *Luojia Mountain Afterschool Program* serving 30+ children from migrant worker families.
+
+---
+
+##  Skills
+- **Software:** MATLAB, PyMOL, CaImAn (CNMF-E), DeepLabCut, Microsoft Office Suite  
+- **Programming:** Python, C++  
+- **Languages:** English (Fluent, TOEFL 101), Chinese (Native)
+
+---
+
+##  Publications
+
+1. **Gene Expression Profiling Based on High-Throughput Sequencing Technology and Its Application in Disease Diagnosis**  
+   *Journal of Prevention, Diagnosis and Management of Human Diseases*, 5(1), 32–44, Jan 2025.  
+   [https://doi.org/10.55529/jpdmhd.51.32.44](https://doi.org/10.55529/jpdmhd.51.32.44)
+
+2. **Gene Expression Data Analysis Based on Mixed Effects Model**  
+   *Journal of Computer and Communications*, 13, 223–235, 2025.  
+   [https://doi.org/10.4236/jcc.2025.132014](https://doi.org/10.4236/jcc.2025.132014)
+
+3. **Brain Electrical Activity Acquisition & Decoding Algorithms for Using BMIs**  
+   *Highlights in Science, Engineering and Technology*, 74, 1371–1377, Dec 2023.  
+   [https://doi.org/10.54097/gy823a26](https://doi.org/10.54097/gy823a26)
