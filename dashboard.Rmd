@@ -1,0 +1,52 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(plotly)
+library(p8105.datasets)
+library(tidyverse)
+data(instacart)
+
+cart_df = 
+  instacart|>
+  janitor::clean_names()|>
+  group_by(department_id, department, aisle_id, aisle)|>
+  summarize(n = n())|>
+  mutate(text_label = str_c("department:" , department , "\naisle:"  , aisle , "\nnumber:" , n))
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Distribution of Product Sales Across Aisles and Departments
+
+```{r}
+cart_df|>
+  plot_ly(
+    x = ~aisle_id, y = ~department_id, type = "scatter", mode = "markers",
+    color = ~n, text = ~text_label, alpha = 1)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### SNumber of Products Sold per Department (by Aisle)
+
+```{r}
+cart_df |> 
+  plot_ly(y = ~n, color = ~department, type = "box", colors = "viridis")
+```
+
+### Number of Items Purchased by Aisle
+
+```{r}
+cart_df |> 
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle , type = "bar", colors = "viridis")
+```
+
